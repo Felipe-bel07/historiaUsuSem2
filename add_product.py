@@ -1,12 +1,12 @@
-def add_product(inventary): #This function add a new product to the invenytary 
+def add_product(inventory): #This function add a new product to the invenytary 
             print("Please enter the your product's data.")
             name  = input("\nProduct's name: ")
             price = float(input("Product's price: "))
             quantity = int(input("Quantity: "))
             product = {
-                "name": name,
+                "product": name,
                 "price": price,
                 "quantity": quantity
             }  
-            inventary.append(product)
-            print(inventary)
+            inventory.append(product)
+            print(inventory)
